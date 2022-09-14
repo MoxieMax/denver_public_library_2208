@@ -10,4 +10,8 @@ class Library
     @authors << author_name
     @books.concat(author_name.books)
   end
+  
+  def publication_time_frame_for(author_name)
+    
+  end
 end
